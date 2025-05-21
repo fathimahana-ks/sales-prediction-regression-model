@@ -1,122 +1,108 @@
 # Sales Prediction Using Linear Regression
 
-Predict sales based on marketing budgets across different channels using a linear regression model. This project includes data cleaning, visualization, and building a prediction model.
+A project to predict sales based on marketing budgets across TV, Radio, Social Media, and Influencer categories using linear regression.
 
 ---
 
-## Table of Contents
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [How to Run](#how-to-run)
-- [Project Details](#project-details)
-- [Results](#results)
-- [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+##  Overview
+
+This project demonstrates how to:
+
+- Perform data preprocessing and cleaning  
+- Conduct exploratory data analysis (EDA) with visualizations  
+- Build and evaluate a linear regression model for sales prediction  
+- Understand the influence of different marketing channels on sales  
 
 ---
 
-## Overview
+##  Key Features
 
-This project uses a **dummy marketing and sales dataset** created for educational purposes, specifically designed for courses like *Data-Driven Marketing* and *Data Science for Business*.
-
-The goal is to explore the relationship between promotional budgets across TV, Radio, Social Media, and influencer types, and how they impact sales. The project covers:
-
-- Data preprocessing  
-- Exploratory data analysis (EDA)  
-- Visualization of marketing impact  
-- Sales prediction using linear regression  
-- Model evaluation
+-  **Data Cleaning:** Handling missing values and duplicates  
+-  **Exploratory Data Analysis:** Bar charts, scatter plots, histograms, boxplots, and heatmaps  
+-  **Linear Regression Modeling:** Predict sales from TV, Radio, and Social Media budgets  
+-  **Model Evaluation:** Coefficients, intercept, and R-squared metrics  
 
 ---
 
 ## Dataset
-
 The dataset includes the following columns:
 
-- **TV:** TV promotion budget (in million)  
-- **Social Media:** Social Media promotion budget (in million)  
-- **Radio:** Radio promotion budget (in million)  
-- **Influencer:** Influencer category involved in promotion (Mega, Macro, Micro, Nano)  
-- **Sales:** Sales generated (in million)  
+- *TV:* TV promotion budget (in million)  
+- *Social Media:* Social Media promotion budget (in million)  
+- *Radio:* Radio promotion budget (in million)  
+- *Influencer:* Influencer category involved in promotion (Mega, Macro, Micro, Nano)  
+- *Sales:* Sales generated (in million)  
 
 This dataset is ideal for tasks such as data preprocessing, exploratory analysis, visualization, and building predictive models using linear regression.
 
 ---
 
-## Prerequisites
+##  Project Structure
 
-Make sure you have Python 3 installed.  
-You will need the following Python libraries:
-
-- pandas  
-- numpy  
-- matplotlib  
-- seaborn  
-- scikit-learn  
-- statsmodels  
-
-Install all dependencies using:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
-```
-
-## Installation
-
-1. Clone this repository:
-
-```bash
-git clone <repo-url>
-cd <repo-folder>
-```
-
-2. Download the dataset from [here](https://www.kaggle.com/harrimansaragih/dummy-advertising-and-sales-data) and place the CSV file inside a folder named `data` in the project directory.
-
- Your folder structure should look like this:<br>
-
-`project-folder/`<br>
+Your folder structure should look like this:<br><br>
+`sales-prediction/`<br>
 │<br>
 ├── `data/`<br>
 │  └── `Dummy Data HSS.csv`<br>
 │<br>
 ├── `sales_prediction.py`<br>
-└── `README.md`<br>
+└── `README.md`<br><br>
 
-## How to Run
+> The dataset CSV goes inside the `data/` folder.  
+> The main script `sales_prediction.py` contains all code to run the analysis and modeling.
 
-1. Open your terminal or command prompt in the project directory.
+---
 
-2. Execute the Python script:
+## 🛠️ Technologies Used
 
-```bash
-python sales_prediction.py
-```
-The script will:
-Load and clean the dataset
-Perform exploratory data analysis with visualizations
-Train a linear regression model
-Output the model coefficients and evaluation metrics
+- Python  
+- Pandas & NumPy  
+- Matplotlib & Seaborn  
+- Scikit-learn (Linear Regression)  
 
-## Project Details
+---
 
-- **Data Cleaning:** - Handles missing values and removes duplicates for clean data analysis.  
-- **Exploratory Data Analysis (EDA):** - Generates bar charts, scatter plots, histograms, box plots, and heatmaps to uncover insights and relationships in the data.  
-- **Modeling:** - Implements a linear regression model to predict sales based on marketing budgets from TV, Radio, and Social Media channels.  
-- **Model Evaluation:** - Displays model coefficients, intercept, and R-squared value to assess model performance and feature influence.  
+##  How to Run
 
-## Results
+1. Clone this repo  
+2. Download the dataset and place `Dummy Data HSS.csv` in the `data/` folder  
+3. Install dependencies:
+
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn
+
+3. Run the script:
+
+   ```bash
+   sales_prediction.py
+
+---
+
+##  Results
 
 Upon running the script, you will get:
-- **Model Coefficients:** Indicate the impact of each marketing channel on sales.  
+
+- **Model Coefficients:** Indicate the impact of each marketing channel (TV, Radio, Social Media) on sales.  
 - **Intercept:** The baseline sales value when all marketing budgets are zero.  
-- **R-squared Score:** Shows the proportion of variance in sales explained by the model (higher is better).  
+- **R-squared Score:** Shows the proportion of variance in sales explained by the model (higher is better).
 
 These results help understand which marketing efforts most strongly affect sales and how well the linear regression model fits the data.
 
+---
 
+##  Notes
 
+- Ensure the dataset file is correctly placed in the `data` folder as `Dummy Data HSS.csv`.  
+- The project script handles data preprocessing, exploratory analysis, visualization, and modeling end-to-end.  
+- You can extend the project by experimenting with other regression models or feature engineering.
+
+---
+
+##  Contact
+
+**Fathima Hana**  
+📧 [fathimahanaks@gmail.com](mailto:fathimahanaks@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/fathimahana/)
+
+Feel free to reach out for questions or collaboration!
 
