@@ -102,7 +102,7 @@ These results help understand which marketing efforts most strongly affect sales
 
 **Fathima Hana**  
 📧 [fathimahanaks@gmail.com](mailto:fathimahanaks@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/fathimahana/)
+🔗 [LinkedIn](https://www.linkedin.com/in/fathimahan/)
 
 Feel free to reach out for questions or collaboration!
 
